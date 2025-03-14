@@ -58,3 +58,68 @@ img{
 .msg-container{
     margin-top:3rem;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choices {
+        gap: 1.5rem;
+    }
+
+    .scoreboard {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #your-score, #computer-score {
+        font-size: 3rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .choices {
+        flex-direction: column;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .scoreboard {
+        gap: 1.5rem;
+    }
+
+    #your-score, #computer-score {
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+}
